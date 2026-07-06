@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Madx Tech</title>
+</head>
+
+<body>
+
+
+    <button class="menu-btn" onclick="openMenu()">☰</button>
+
+    <div id="sideMenu" class="side-menu">
+        <span class="close-btn" onclick="closeMenu()">&times;</span>
+
+        <a href="#" onclick="showAbout()">About</a>
+    </div>
+
+    <!-- Hidden About Box -->
+    <div id="aboutBox" class="about-box">
+        <h2>About</h2>
+        <p>
+            Welcome to my website. This website is created for my Instagram followers
+            to search and download apps easily.
+            @whotfx_madx
+        </p>
+
+        <button onclick="hideAbout()">Close</button>
+    </div>
+
+
+    <div id="followPopup">
+        <div class="popup-content">
+            <h2>Follow us on Instagram</h2>
+            <a href="https://www.instagram.com/whotfx_madx?igsh=MWdrN2dreTl4aGE3MQ==" class="followbtn" target="_blank">
+                Follow Now
+            </a>
+            <br><br>
+            <button class="enterbtn" onclick="enterSite()">Continue</button>
+        </div>
+    </div>
+
+    <header>
+        <div class="logo">Whotfx_Madx</div>
+    </header>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search App...">
+    </div>
+
+    <div class="container" id="appContainer">
+
+
+
+        <div class="card">
+            <img src="images/echo.png" width="600" height="300" alt="Upload App Image">
+            <div class="card-content">
+                <h2>Echo-Ads Free Music Listen</h2>
+
+                <a href="#" class="btn"
+                    onclick="countDownload('https://drive.google.com/file/d/1BD2eDLj888DI32r8pUt1oYp9ZPHh-sYZ/view?usp=drivesdk'); return false;">
+                    Download
+                </a>
+
+
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/Gta-5.jpg" width="600" height="300" alt="GTA-5 Game Android Edition">
+            <div class="card-content">
+                <h2>GTA-5 Game Android Edition</h2>
+
+
+                <a href="#" class="btn"
+                    onclick="countDownload('https://drive.google.com/file/d/1KplTYgrpK99dSu2Y-x7OzIcPhk8OR_Un/view?usp=drivesdk'); return false;">
+                    Download
+                </a>
+
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="images/capcut app.jpg" width="600" height="300" alt="Cloud Game App">
+            <div class="card-content">
+                <h2>Capcut Pro-2026</h2>
+
+
+                <a href="#" class="btn"
+                    onclick="countDownload('https://drive.google.com/file/d/1DElZXMHgP-ia_EpmWZaBxepBsxRqtmji/view?usp=drivesdk'); return false;">
+                    Download
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="card">
+            <img src="images/vpn.jpg" width="600" height="300" alt="Cloud Game App">
+            <div class="card-content">
+                <h2>Proton VPN Pro-2026</h2>
+
+                <a href="#" class="btn" onclick="countDownload('https://t.me/madxedits20/126'); return false;">
+                    Download
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="card">
+            <img src="images/1alightmotion.png" width="600" height="300" alt="Cloud Game App">
+            <div class="card-content">
+                <h2>Alight Motion Pro Mod-2026</h2>
+
+
+                <a href="#" class="btn" onclick="countDownload('https://t.me/madxedits20/128'); return false;">
+                    Download
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="card">
+            <img src="images/HorizonDrivingSimulator.png" width="600" height="300" alt="Cloud Game App">
+            <div class="card-content">
+                <h2>Horizon Driving Ultra-Mod</h2>
+
+
+                <a href="#" class="btn"
+                    onclick="countDownload('https://drive.google.com/file/d/1v7SUzijiqA5jsTaYek7nrf1IN_yp4yTH/view?usp=drivesdk'); return false;">
+                    Download
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="card">
+            <img src="images/LR.jpg" width="600" height="300" alt="Cloud Game App">
+            <div class="card-content">
+                <h2>LightRoom Premieum-Mod Apk</h2>
+
+
+                <a href="#" class="btn" onclick="countDownload('https://t.me/madxedits20/127'); return false;">
+                    Download
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="card">
+            <img src="images/open camera.jpg" width="600" height="300" alt="Cloud Game App">
+            <div class="card-content">
+                <h2>Open Camera Apk</h2>
+
+
+                <a href="#" class="btn"
+                    onclick="countDownload('https://play.google.com/store/apps/details?id=net.sourceforge.opencamera'); return false;">
+                    Download
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script type="module" src="app.js"></script>
+
+</body>
+
+</html>
