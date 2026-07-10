@@ -49,8 +49,13 @@ const data = [
         "title": "Open Camera Apk",
         "image": "images/open camera.jpg",
         "downloadUrl": "https://play.google.com/store/apps/details?id=net.sourceforge.opencamera"
-    },
 
+    },
+{
+        "title": "SpiderMan Marve-Elite",
+        "image": "images/spiderman.jpg",
+        "downloadUrl": "https://www.mediafire.com/file/epszkj2fggrtw30/Spiderman_Miles_Morales_Fanmade.7z/file"
+},
 ]
 
 const container = document.getElementById('appContainer')
