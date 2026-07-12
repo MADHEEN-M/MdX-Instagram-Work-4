@@ -56,6 +56,12 @@ const data = [
         "image": "images/spiderman.jpg",
         "downloadUrl": "https://www.mediafire.com/file/epszkj2fggrtw30/Spiderman_Miles_Morales_Fanmade.7z/file"
 },
+
+{
+ "title": "Ben-10 Galvan Alien-Hero",
+        "image": "images/ben-10.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1efquDHduAxKYxsaly22JsqSpx7sg7QFq/view?usp=drivesdk"
+},
 ]
 
 const container = document.getElementById('appContainer')
