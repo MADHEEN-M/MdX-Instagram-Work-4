@@ -62,6 +62,18 @@ const data = [
         "image": "images/ben-10.jpg",
         "downloadUrl": "https://drive.google.com/file/d/1efquDHduAxKYxsaly22JsqSpx7sg7QFq/view?usp=drivesdk"
 },
+
+{
+"title": "Truckers Of Europe-Simulator",
+        "image": "images/ets.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1XDajuIzYu31t9zzQOS1FYiYGyBTcO6ff/view?usp=drivesdk"
+},
+
+{
+"title": "Bussid-Simulator Indonesia",
+        "image": "images/bussid.jpg",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.maleo.bussimulatorid"
+},
 ]
 
 const container = document.getElementById('appContainer')
