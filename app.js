@@ -74,6 +74,12 @@ const data = [
         "image": "images/bussid.jpg",
         "downloadUrl": "https://play.google.com/store/apps/details?id=com.maleo.bussimulatorid"
 },
+
+{
+"title": "God OF War-Ragnarok",
+        "image": "images/god of war.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1tdkAyIOcJcIdgMkMP3_67jE_Z8rBWlJ6/view?usp=drivesdk"
+},
 ]
 
 const container = document.getElementById('appContainer')
