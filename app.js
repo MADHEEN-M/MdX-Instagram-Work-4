@@ -86,6 +86,18 @@ const data = [
         "image": "images/gta 4.jpg",
         "downloadUrl": "https://www.mediafire.com/download/017p106few468g4git"
 },
+
+{
+"title": "Tomb Raider-FanMade",
+        "image": "images/tomb raider.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1w3l71szrHGbeiNUAUDEpaVFHKFcrfzVx/view?usp=drivesdk"
+},
+
+{
+"title": "RDR-2(red dead redemption)-FanMade",
+        "image": "images/rdr2.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1mlttdMebIM7LhzOrdEGrTqfPzruqMUVO/view?usp=drivesdk"
+},
 ]
 
 const container = document.getElementById('appContainer')
