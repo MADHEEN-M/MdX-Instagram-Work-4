@@ -98,6 +98,18 @@ const data = [
         "image": "images/rdr2.jpg",
         "downloadUrl": "https://drive.google.com/file/d/1mlttdMebIM7LhzOrdEGrTqfPzruqMUVO/view?usp=drivesdk"
 },
+
+{
+"title": "MeechaChamilion Fanmade",
+        "image": "images/meecha.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1zHi2sz7Hf6wPnRVfCYzzjT6MDaJrTOQ-/view?usp=drivesdk"
+},
+
+{
+"title": "Mortal Kombat Android",
+        "image": "images/mortalkombat.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/13-WS11PGrNj-aTZrxKZDuLQ4QpNmCgKk/view?usp=drivesdk"
+},
 ]
 
 const container = document.getElementById('appContainer')
@@ -206,18 +218,20 @@ window.countDownload = async function (link) {
 
 
 const followBtn = document.getElementById("followbtnId");
+const followsBtn = document.getElementById("followsbtnId");
 const youtubeBtn = document.getElementById("youtubeBtnId");
 const enterBtn = document.getElementById("enterbtnId");
 const followPopup = document.getElementById("followPopup");
 
-enterBtn.style.display = "none";
+
 
 function updateUI() {
 
     const youtubeDone = localStorage.getItem("youtube") === "1";
-    const instagramDone = localStorage.getItem("flag") === "1";
+    const instagram1Done = localStorage.getItem("instagram1") === "1";
+    const instagram2Done = localStorage.getItem("instagram2") === "1";
 
-    if (youtubeDone && instagramDone) {
+    if (youtubeDone && instagram1Done && instagram2Done) {
         enterBtn.style.display = "inline-block";
     } else {
         enterBtn.style.display = "none";
@@ -233,23 +247,44 @@ youtubeBtn.addEventListener("click", () => {
 
     localStorage.setItem("youtube", "1");
 
-    window.open("https://youtube.com/@madzpov?si=EC2vVLfZUcjlFe9I", "_blank");
+    window.open("https://youtube.com/@mdxstudio7?si=On_dhWYdWOel9QKU", "_blank");
+
+        updateUI();
 
 });
 
 followBtn.addEventListener("click", () => {
 
-    localStorage.setItem("flag", "1");
+    localStorage.setItem("instagram1", "1");
 
-    window.location.href = "https://www.instagram.com/whotfx_madx?igsh=MWdrN2dreTl4aGE3MQ==";
+    window.open(
+        "https://www.instagram.com/whotfx_madx?igsh=MWdrN2dreTl4aGE3MQ==",
+        "_blank"
+    );
+
+    updateUI();
 
 });
+
+followsBtn.addEventListener("click", () => {
+
+    localStorage.setItem("instagram2", "1");
+
+    window.open(
+        "https://www.instagram.com/madx_kiddo_07?igsh=djdlMXV1OXJmdmh6",
+        "_blank"
+    );
+
+    updateUI();
+
+});
+
 
 enterBtn.addEventListener("click", () => {
 
     followPopup.style.display = "none";
 
     localStorage.removeItem("youtube");
-    localStorage.removeItem("flag");
-
+    localStorage.removeItem("instagram1");
+    localStorage.removeItem("instagram2");
 });
