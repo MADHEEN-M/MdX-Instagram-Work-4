@@ -20,16 +20,19 @@ const data = [
         "image": "images/Gta-5.jpg",
         "downloadUrl": "https://drive.google.com/file/d/1KplTYgrpK99dSu2Y-x7OzIcPhk8OR_Un/view?usp=drivesdk"
     },
+
     {
         "title": "Capcut Pro-2026",
         "image": "images/capcut app.jpg",
         "downloadUrl": "https://drive.google.com/file/d/1DElZXMHgP-ia_EpmWZaBxepBsxRqtmji/view?usp=drivesdk"
     },
+
     {
         "title": "Proton VPN Pro-2026",
         "image": "images/vpn.jpg",
         "downloadUrl": "https://t.me/madxedits20/126"
     },
+    
     {
         "title": "Alight Motion Pro Mod-2026",
         "image": "images/1alightmotion.png",
@@ -110,6 +113,37 @@ const data = [
         "image": "images/mortalkombat.jpg",
         "downloadUrl": "https://drive.google.com/file/d/13-WS11PGrNj-aTZrxKZDuLQ4QpNmCgKk/view?usp=drivesdk"
 },
+
+{
+"title": "JCB-High Graphics",
+        "image": "images/jcb.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1VAwlPtszY008IRl13Zg6K8bTdvU6ISU-/view?usp=drivesdk"
+},
+
+{
+"title": "Indian Cricket 26 Play",
+        "image": "images/cricket26.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1UEuFfitBON3Kv9enVP3OTLBhzmuuGlxT/view?usp=drivesdk"
+},
+
+{
+"title": "NFS-Needs For Speed-NO LIMIT",
+        "image": "images/Nfs.jpg",
+        "downloadUrl": "https://drive.google.com/file/d/1cjBZVxZvzPRCea2aCvS6glIQXOz8O8rk/view?usp=drivesdk"
+},
+
+{
+"title": "Stumble Guys Game Download",
+        "image": "images/stumbleguys.jpg",
+        "downloadUrl": "https://t.me/madxedits20/135"
+},
+
+{
+"title": "Valorant-Alternative Game",
+        "image": "images/shoot.jpg",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.my.warface.online.fps.pvp.action.shooter"
+},
+
 ]
 
 const container = document.getElementById('appContainer')
