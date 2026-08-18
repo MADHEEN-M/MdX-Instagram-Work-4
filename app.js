@@ -144,6 +144,19 @@ const data = [
         "downloadUrl": "https://play.google.com/store/apps/details?id=com.my.warface.online.fps.pvp.action.shooter"
 },
 
+{
+"title": "KwaiCUT Editing App",
+        "image": "images/edit.jpg",
+        "downloadUrl": "https://an1.ca/kwaicut-premium/download/0/"
+},
+
+{
+"title": "TN Bus Game Premium",
+        "image": "images/tnbus.jpg",
+        "downloadUrl": "https://india-bussid-tamilnadu-tnstc.en.softonic.com/android"
+},
+
+
 ]
 
 const container = document.getElementById('appContainer')
