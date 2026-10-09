@@ -156,6 +156,26 @@ const data = [
         "downloadUrl": "https://india-bussid-tamilnadu-tnstc.en.softonic.com/android"
 },
 
+{
+"title": "GTA-5 Fanmade Premium Download",
+        "image": "images/Gta-5.jpg",
+        "downloadUrl": "https://t.me/madxedits20/97"
+},
+
+{
+"title": "GTA-ViceCity Premium",
+        "image": "images/gtavc.jpg",
+        "downloadUrl": "https://quenq.com/apps/vice-city/"
+},
+
+{
+"title": "GTA-3 Download Premium",
+        "image": "images/gta3.jpg",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.rockstargames.gta3.de"
+},
+
+
+
 
 ]
 
