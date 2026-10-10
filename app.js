@@ -314,7 +314,7 @@ youtubeBtn.addEventListener("click", () => {
 
     localStorage.setItem("youtube", "1");
 
-    window.open("https://youtube.com/@mdxstudio7?si=On_dhWYdWOel9QKU", "_blank");
+    window.open("https://youtube.com/@ftmadx7?si=FBzERnFwLz6Mqm--", "_blank");
 
         updateUI();
 
@@ -325,7 +325,7 @@ followBtn.addEventListener("click", () => {
     localStorage.setItem("instagram1", "1");
 
     window.open(
-        "https://www.instagram.com/whotfx_madx?igsh=MWdrN2dreTl4aGE3MQ==",
+        "https://www.instagram.com/local_gamer17?mdxt=MWdrN2dreTl4aGE3MQ==",
         "_blank"
     );
 
@@ -338,7 +338,7 @@ followsBtn.addEventListener("click", () => {
     localStorage.setItem("instagram2", "1");
 
     window.open(
-        "https://www.instagram.com/madx_kiddo_07?igsh=djdlMXV1OXJmdmh6",
+        "https://www.instagram.com/ft_madx7?dlrf=djdlMXV1OXJmdmh6",
         "_blank"
     );
 
