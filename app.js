@@ -311,13 +311,11 @@ window.addEventListener("pageshow", updateUI);
 window.addEventListener("focus", updateUI);
 
 youtubeBtn.addEventListener("click", () => {
-
     localStorage.setItem("youtube", "1");
 
-    window.open("https://youtube.com/@ftmadx7?si=FBzERnFwLz6Mqm--", "_blank");
+    window.open("https://www.youtube.com/@ftmadx7", "_blank");
 
-        updateUI();
-
+    updateUI();
 });
 
 followBtn.addEventListener("click", () => {
